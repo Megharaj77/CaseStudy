@@ -19,6 +19,11 @@ insert into request_type values(3,'Software request');
 
 select * from request_type;
 
+insert into status values(1,'Requested');
+insert into status values(2,'Rejected');
+insert into status values(3,'Cancelled');
+insert into status values(4,'Assigned');
+
 insert into location values(111,'BLR-SER1');
 insert into location values(222,'BLR-SER2');
 insert into location values(333,'BLR-BTR1');
